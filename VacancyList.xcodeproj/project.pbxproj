@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DB35B7E2835145C00950633 /* vacancyListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB35B7D2835145C00950633 /* vacancyListApp.swift */; };
-		5DB35B802835145C00950633 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB35B7F2835145C00950633 /* ContentView.swift */; };
+		5DB35B7E2835145C00950633 /* VacancyListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB35B7D2835145C00950633 /* VacancyListApp.swift */; };
+		5DB35B802835145C00950633 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB35B7F2835145C00950633 /* MainView.swift */; };
 		5DB35B822835145D00950633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB35B812835145D00950633 /* Assets.xcassets */; };
 		5DB35B852835145D00950633 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB35B842835145D00950633 /* Preview Assets.xcassets */; };
-		5DB35B8C2835175600950633 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB35B8B2835175600950633 /* model.swift */; };
+		5DB35B8C2835175600950633 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB35B8B2835175600950633 /* Model.swift */; };
 		5DB35B8E2835412900950633 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB35B8D2835412900950633 /* FilterView.swift */; };
+		5DB35B9028366E4B00950633 /* VacancyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB35B8F28366E4B00950633 /* VacancyViewModel.swift */; };
+		5DB35B922839472B00950633 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB35B912839472B00950633 /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5DB35B7A2835145C00950633 /* vacancyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vacancyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DB35B7D2835145C00950633 /* vacancyListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vacancyListApp.swift; sourceTree = "<group>"; };
-		5DB35B7F2835145C00950633 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DB35B7A2835145C00950633 /* VacancyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacancyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB35B7D2835145C00950633 /* VacancyListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyListApp.swift; sourceTree = "<group>"; };
+		5DB35B7F2835145C00950633 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5DB35B812835145D00950633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DB35B842835145D00950633 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5DB35B8B2835175600950633 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		5DB35B8B2835175600950633 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		5DB35B8D2835412900950633 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		5DB35B8F28366E4B00950633 /* VacancyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyViewModel.swift; sourceTree = "<group>"; };
+		5DB35B912839472B00950633 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +43,7 @@
 		5DB35B712835145C00950633 = {
 			isa = PBXGroup;
 			children = (
-				5DB35B7C2835145C00950633 /* vacancyList */,
+				5DB35B7C2835145C00950633 /* VacancyList */,
 				5DB35B7B2835145C00950633 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,22 +51,24 @@
 		5DB35B7B2835145C00950633 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DB35B7A2835145C00950633 /* vacancyList.app */,
+				5DB35B7A2835145C00950633 /* VacancyList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5DB35B7C2835145C00950633 /* vacancyList */ = {
+		5DB35B7C2835145C00950633 /* VacancyList */ = {
 			isa = PBXGroup;
 			children = (
-				5DB35B7D2835145C00950633 /* vacancyListApp.swift */,
-				5DB35B7F2835145C00950633 /* ContentView.swift */,
+				5DB35B7D2835145C00950633 /* VacancyListApp.swift */,
+				5DB35B7F2835145C00950633 /* MainView.swift */,
+				5DB35B912839472B00950633 /* SafariView.swift */,
 				5DB35B8D2835412900950633 /* FilterView.swift */,
-				5DB35B8B2835175600950633 /* model.swift */,
+				5DB35B8B2835175600950633 /* Model.swift */,
+				5DB35B8F28366E4B00950633 /* VacancyViewModel.swift */,
 				5DB35B812835145D00950633 /* Assets.xcassets */,
 				5DB35B832835145D00950633 /* Preview Content */,
 			);
-			path = vacancyList;
+			path = VacancyList;
 			sourceTree = "<group>";
 		};
 		5DB35B832835145D00950633 /* Preview Content */ = {
@@ -76,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DB35B792835145C00950633 /* vacancyList */ = {
+		5DB35B792835145C00950633 /* VacancyList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DB35B882835145D00950633 /* Build configuration list for PBXNativeTarget "vacancyList" */;
+			buildConfigurationList = 5DB35B882835145D00950633 /* Build configuration list for PBXNativeTarget "VacancyList" */;
 			buildPhases = (
 				5DB35B762835145C00950633 /* Sources */,
 				5DB35B772835145C00950633 /* Frameworks */,
@@ -88,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = vacancyList;
+			name = VacancyList;
 			productName = vacancyList;
-			productReference = 5DB35B7A2835145C00950633 /* vacancyList.app */;
+			productReference = 5DB35B7A2835145C00950633 /* VacancyList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DB35B752835145C00950633 /* Build configuration list for PBXProject "vacancyList" */;
+			buildConfigurationList = 5DB35B752835145C00950633 /* Build configuration list for PBXProject "VacancyList" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DB35B792835145C00950633 /* vacancyList */,
+				5DB35B792835145C00950633 /* VacancyList */,
 			);
 		};
 /* End PBXProject section */
@@ -144,9 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DB35B8E2835412900950633 /* FilterView.swift in Sources */,
-				5DB35B802835145C00950633 /* ContentView.swift in Sources */,
-				5DB35B8C2835175600950633 /* model.swift in Sources */,
-				5DB35B7E2835145C00950633 /* vacancyListApp.swift in Sources */,
+				5DB35B802835145C00950633 /* MainView.swift in Sources */,
+				5DB35B8C2835175600950633 /* Model.swift in Sources */,
+				5DB35B7E2835145C00950633 /* VacancyListApp.swift in Sources */,
+				5DB35B922839472B00950633 /* SafariView.swift in Sources */,
+				5DB35B9028366E4B00950633 /* VacancyViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +289,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +319,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DB35B752835145C00950633 /* Build configuration list for PBXProject "vacancyList" */ = {
+		5DB35B752835145C00950633 /* Build configuration list for PBXProject "VacancyList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DB35B862835145D00950633 /* Debug */,
@@ -337,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DB35B882835145D00950633 /* Build configuration list for PBXNativeTarget "vacancyList" */ = {
+		5DB35B882835145D00950633 /* Build configuration list for PBXNativeTarget "VacancyList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DB35B892835145D00950633 /* Debug */,
